@@ -1,0 +1,24 @@
+<?php 
+function conversion($peso, $op){
+	switch ($op) {
+		case 'dolsin':
+			$resultado =$peso * 0.07159;
+			break;
+		
+		case 'sheis':
+			$resultado =$peso * 0.1939;
+			break;
+
+		case 'yen':
+			$resultado =$peso * 5.9796;
+			break;
+
+		case 'yuan':
+			$resultado =$peso * 0.3488;
+			break;
+
+	}
+	return $resultado;
+}
+
+ ?>
